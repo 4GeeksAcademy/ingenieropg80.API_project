@@ -28,7 +28,7 @@ df = pd.DataFrame(songs)
 
 df_sorted = df.sort_values(by="popularity", ascending=False)
 top_3 = df_sorted.head(3)
-print(df)
+print(df) #intento separar con \n
 print(top_3)
 
 
@@ -37,4 +37,4 @@ plt.xlabel('Duración (ms)')
 plt.ylabel('Popularidad')
 plt.title('Popularidad vs duración')
 plt.show()
-plt.show(block=True)
+#plt.show(block=True)
