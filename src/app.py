@@ -38,3 +38,4 @@ plt.ylabel('Popularidad')
 plt.title('Popularidad vs duración')
 plt.show()
 #plt.show(block=True)
+
